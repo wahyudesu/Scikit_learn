@@ -1,7 +1,9 @@
 # Scikit_learn
 Reduksi dimensi dengan PCA
 
-#Machine learning #scikit learn
+
+Techniques to Perform Feature Decomposition i use: 
+PCA (sklearn.decomposition.PCA)
 
 ```
 import numpy as np
@@ -29,5 +31,4 @@ def PCA(X , num_components):
     X_reduced = np.dot(eigenvector_subset.transpose() , X_meaned.transpose() ).transpose()
 
     return X_reduced
-
 ```
